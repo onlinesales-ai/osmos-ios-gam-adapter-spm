@@ -1,0 +1,1 @@
+# osmos-ios-gam-adapter-spm
