@@ -41,11 +41,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads",
-            exact: "13.7.0"
+            from: "13.7.0"
         ),
         .package(
             url: "https://github.com/onlinesales-ai/osmos-ios-network-ad-core-spm",
-            from: "2.0.0"
+            from: "2.1.0"
         )
     ],
     targets: [
@@ -70,8 +70,8 @@ let package = Package(
         // The compiled xcframework — update url + checksum on every release.
         .binaryTarget(
             name: "OsmosGAMAdapterBinary",
-            url: "https://github.com/onlinesales-ai/osmos-ios-gam-adapter/releases/download/13.7.0/OsmosGAMAdapter-13.7.0.zip",
-            checksum: "73948e0079d5e3f7536ce4e24c8e975a69b7ced2f2e0910d827b096ecb36670d"
+            url: "https://github.com/onlinesales-ai/osmos-ios-gam-adapter/releases/download/13.7.1/OsmosGAMAdapter-13.7.1.zip",
+            checksum: "89e0768aa7002768fedeb765bbe4683005b745a7bfbd713b0862a68021528b6e"
         )
     ]
 )
