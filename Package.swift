@@ -70,8 +70,8 @@ let package = Package(
         // The compiled xcframework — update url + checksum on every release.
         .binaryTarget(
             name: "OsmosGAMAdapterBinary",
-            url: "https://github.com/onlinesales-ai/osmos-ios-gam-adapter/releases/download/13.7.1/OsmosGAMAdapter-13.7.1.zip",
-            checksum: "89e0768aa7002768fedeb765bbe4683005b745a7bfbd713b0862a68021528b6e"
+            url: "https://github.com/onlinesales-ai/osmos-ios-gam-adapter/releases/download/13.7.0/OsmosGAMAdapter-13.7.0.zip",
+            checksum: "f8571a0840d29bbbd048ec2d368fa3a26bbfdd38c2571e4e012af845d5178088"
         )
     ]
 )
